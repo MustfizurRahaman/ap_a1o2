@@ -1,6 +1,6 @@
 var map = L.map('map').setView([37.7749, -122.4194], 13);
 
-var esriStreets = L.esri.basemapLayer('Streets').addTo(map);
+var esriStreets = L.esri.basemapLayer('DarkGray').addTo(map);;;
 
 $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%201/Assignment%201/data/sf_crime.geojson",function(data){
     var customIcon = L.icon({
